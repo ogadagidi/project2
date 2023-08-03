@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My YouTube Clone
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/grid.css">
+        <link rel="stylesheet" href="styles/position.css">
+        <link rel="stylesheet" href="styles/tooltip.css">
+        <link rel="stylesheet" href="styles/general.css">
+       
+    </head>
+    <body>
+
+        <!--the header started here and was achieved with flex-->
+        <div class="header">
+
+            <div class="section-one">
+
+                <img class="mylogo" src="images-flex/logo1.png">
+                <img class="youtubelogo" src="images-flex/youtubelogo.png">
+
+            </div>
+
+
+            <div class="section-two">
+
+                <input  type="text" class="search-bar" placeholder="Search">
+
+                <button class="search-button">
+                    <img class="search-icon" src="images-flex/search-icon.png">
+                </button>
+                    
+                <button class="voice-button" >
+                    <img class="voice-search" src="images-flex/voice-search.png">
+                </button>
+            </div>
+
+
+            <div class="section-three">
+
+
+                <img class="login" src="images-flex/login.png">
+                <img class="register" src="images-flex/Register.png">
+                <!--the better option here is to wrap the notification inside a div to get relative and absolute-->
+                <div class="notification-icon-container">
+
+                       <img class="notification" src="images-flex/notification.png">
+                       <div class="notification-count">3</div>
+                </div> 
+                       
+
+                <img class="user-pic" src="images-flex/passport.jpg">
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <!--the header Ended here and was achieved with flex-->
+
+
+
+
+
+
+
+        <div class="sidebar">
+            
+            
+            <div class="sidebar-link">
+                <img src="images-positions/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="images-positions/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="images-positions/library.svg">
+                <div>subscribe</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="images-positions/subscriptions (1).svg">
+                <div>originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="images-positions/youtube-music.svg">
+                <div>Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="images-positions/originals.svg">
+               <div>Library</div> 
+            </div>
+        
+        
+        
+        </div>
+        <!--<hr style="height:2px;border-width:0;color:gray;background-color:gray">-->
+
+
+
+
+
+        
+
+         <!--the body started here and was achieved with grid-->
+
+        <div class="overall-grid-container">    
+            <!--the video preview div serves as the container-->
+            <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (6).webp">
+
+                    <div class="video-time">14:20</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/uu (1).jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                Animated Login Form using Html & CSS.
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                Online Tutorials
+
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                908K subscribers
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the video preview div container ends here-->
+
+
+
+
+            
+            <!--the 2nd video preview div serves as the container-->
+            <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720.webp">
+                    <div class="video-time">17:30</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels5.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                WITHIN ME - CHIDI DIKE, STEFANIA BASSEY, EJIKE IBEDILO, OBY TITUS
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                RuthKadiri247
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                2M views &#183;  2 days ago 
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the 2nd video preview div container ends here-->
+           
+           
+
+              <!--the video preview div serves as the container-->
+              <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (1).webp">
+                    <div class="video-time">12:20</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels6.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                NIGERIA🇳🇬 0 VS 0 🇮🇪IRELAND; FIFA Women's World Cup 2023| Highlights
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                Demikhay Africa TV
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                3.83K subscribers &#183; 6 months ago
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the video preview div container ends here-->
+
+
+
+
+            
+            <!--the 2nd video preview div serves as the container-->
+            <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (2).webp">
+                    <div class="video-time">8:10</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/unnamed.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                I can't Believe this is Nigeria! First Impressions of Abuja
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                  
+                                        AFRICAN TIGRESS
+
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                234K subscribers &#183; 1 months ago
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the 2nd video preview div container ends here-->
+
+
+
+
+              <!--the video preview div serves as the container-->
+              <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (3).webp">
+                    <div class="video-time">09:20</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels7.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                Sabinus Funny Comedy Performance Got The Judges & Crowd Laughing Hard - DTH
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                De9jaSpirit Talent Hun
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                156K subscribers 528 videos
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the video preview div container ends here-->
+
+
+
+
+            
+            <!--the 2nd video preview div serves as the container-->
+            <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (4).webp">
+                    <div class="video-time">13:50</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels8.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                CASSANDRA AND IYKE Part 2 - STELLA UDEZE, AJANIGO INIKPI, EBUKA EZE, ADAEZE PHILO, UCHECHI TREASURE
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                
+                                AdaKirikiriTv
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                509K subscribers
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the 2nd video preview div container ends here-->
+
+
+
+             <!--the video preview div serves as the container-->
+             <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hqdefault.webp">
+
+                    <div class="video-time">14:20</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels4.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                Artificial Intelligence Kid. | Dera Osadebe | Donald Iheonunekwu | Exclusive Nollywood 2023.
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                MobTvstudio
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                3.4M views &#183; 6 months ago
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the video preview div container ends here-->
+
+
+
+              <!--the video preview div serves as the container-->
+              <div class="video-preview">
+
+
+
+                <div class="A">
+
+                    <img class="thumbnail" src="images-grid/hq720 (5).webp">
+                    <div class="video-time">09:20</div>
+
+                </div>
+
+
+
+
+
+                <div class="B">
+
+
+                    <div class="B1">
+                        <img class="B1pic" src="images-grid/channels9.jpg">
+                    </div>
+
+                    
+                    <div class="B2">
+
+                            
+                            <p class="video-title">
+                
+                                How To Make Drop Down Menu Using HTML And CSS | HTML Website Tutorials
+                
+                            </p>
+                
+                            <p class="video-author">
+                
+                                GreatStack
+
+                
+                            </p>
+                
+                            <p class="video-stats">
+                
+                                864K subscribers
+                
+                            </p>
+    
+
+                    </div>
+
+               
+
+                </div>
+
+
+
+                
+
+
+
+
+
+            </div>
+            <!--the video preview div container ends here-->
+
+
+
+        </div><!--the overall grid container closes here-->
+
+
+
+
+        <!--the body Ended here and was achieved with grid-->
+    </body>
+</html>
